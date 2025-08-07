@@ -12,6 +12,7 @@ document.querySelector('#app').innerHTML = `
         >
         <input type='submit'>
     </form>
+    <div id='pokemonCard'></div>
   </div>
 `
 
