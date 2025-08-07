@@ -1,17 +1,18 @@
-import './style.css'
 import { setupPokemonForm } from './modules/setupPokemonForm.js'
+
 
 document.querySelector('#app').innerHTML = `
   <div>
     <h1>Pokedex</h1>
-      <form id='searchPokemonForm'>
-        <input 
-        id='searchPokemonInput'
-        type='text'
-        name='searchPokemonInput'
+    <form id='searchPokemonForm'>
+        <input
+            id='searchPokemonInput'
+            type='text'
+            name='searchPokemonInput'
         >
         <input type='submit'>
-      </form>
+    </form>
   </div>
 `
-setupPokemonForm(document.querySelector('#searchPokemonInput'))
+
+setupPokemonForm(document.querySelector("#searchPokemonForm"));
